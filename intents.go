@@ -6,7 +6,7 @@ type Intent struct {
 
 var (
 	AllIntent                     = Intent{32767}
-	GuildsIntent                  = Intent{1 << 1}
+	GuildsIntent                  = Intent{1 << 0}
 	GuildsMembersIntent           = Intent{1 << 1}
 	GuildsBansIntent              = Intent{1 << 2}
 	GuildsEmojisAndStickersIntent = Intent{1 << 3}
