@@ -6,7 +6,6 @@ import (
 	"testing"
 )
 
-// FDK>L
 func TestAllIndividualIntents(t *testing.T) {
 	o := ClientOptions{
 		Intents: []Intent{
