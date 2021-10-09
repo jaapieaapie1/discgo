@@ -1,3 +1,3 @@
 module "github.com/jaapieaapie1/disgo"
 
-go 1.17.2
+go 1.17
